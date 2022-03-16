@@ -1,0 +1,37 @@
+[
+    {
+        "type": "Cars",
+        "Brands": [
+            "BMW",
+            "Honda",
+            "Tesla",
+            "Marcedes",
+            "Toyota"
+            "Skoda"
+        ]
+    },
+    {
+        "type": "Bikes",
+        "Brands": [
+            "Harley Devidson",
+            "Honda",
+            "Kawasaki"
+            "Royal Enfield"
+            "Yamaha",
+            "Suzuki"
+        ]
+    },
+    {
+        "type": "Watches",
+        "Brands": [
+            "Rolex",
+            "Seiko",
+            "Casio",
+            "Citzen",
+            "Timex",
+            "Daniel Willington"
+            
+        ]
+    }
+]
+

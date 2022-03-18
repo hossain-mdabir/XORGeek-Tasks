@@ -1,0 +1,6 @@
+framework module Pods_Application_Shimmering_Effect_ {
+  umbrella header "Pods-Application(Shimmering Effect)-umbrella.h"
+
+  export *
+  module * { export * }
+}

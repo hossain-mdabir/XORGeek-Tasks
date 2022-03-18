@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FBBBE3E03EF3564153D02E0 /* Pods_Application_Shimmering_Effect_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C43C7CE658991F736C13D272 /* Pods_Application_Shimmering_Effect_.framework */; };
+		7848121B27E44F4F009B50D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7848121A27E44F4F009B50D7 /* AppDelegate.swift */; };
+		7848121D27E44F4F009B50D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7848121C27E44F4F009B50D7 /* SceneDelegate.swift */; };
+		7848121F27E44F4F009B50D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7848121E27E44F4F009B50D7 /* ViewController.swift */; };
+		7848122227E44F4F009B50D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7848122027E44F4F009B50D7 /* Main.storyboard */; };
+		7848122427E44F5E009B50D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7848122327E44F5E009B50D7 /* Assets.xcassets */; };
+		7848122727E44F5E009B50D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7848122527E44F5E009B50D7 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7848121727E44F4F009B50D7 /* Application(Shimmering Effect).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Application(Shimmering Effect).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7848121A27E44F4F009B50D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7848121C27E44F4F009B50D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7848121E27E44F4F009B50D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7848122127E44F4F009B50D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7848122327E44F5E009B50D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7848122627E44F5E009B50D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7848122827E44F5E009B50D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DCAB1135583095B42A919D3 /* Pods-Application(Shimmering Effect).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Application(Shimmering Effect).release.xcconfig"; path = "Target Support Files/Pods-Application(Shimmering Effect)/Pods-Application(Shimmering Effect).release.xcconfig"; sourceTree = "<group>"; };
+		C43C7CE658991F736C13D272 /* Pods_Application_Shimmering_Effect_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Application_Shimmering_Effect_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB3057A9211DB1F87022E91 /* Pods-Application(Shimmering Effect).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Application(Shimmering Effect).debug.xcconfig"; path = "Target Support Files/Pods-Application(Shimmering Effect)/Pods-Application(Shimmering Effect).debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7848121427E44F4F009B50D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FBBBE3E03EF3564153D02E0 /* Pods_Application_Shimmering_Effect_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33E16A237BAB1A8922D31CED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C43C7CE658991F736C13D272 /* Pods_Application_Shimmering_Effect_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7848120E27E44F4F009B50D7 = {
+			isa = PBXGroup;
+			children = (
+				7848121927E44F4F009B50D7 /* Application(Shimmering Effect) */,
+				7848121827E44F4F009B50D7 /* Products */,
+				8D554A8110B028B2B5582E5D /* Pods */,
+				33E16A237BAB1A8922D31CED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7848121827E44F4F009B50D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7848121727E44F4F009B50D7 /* Application(Shimmering Effect).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7848121927E44F4F009B50D7 /* Application(Shimmering Effect) */ = {
+			isa = PBXGroup;
+			children = (
+				7848121A27E44F4F009B50D7 /* AppDelegate.swift */,
+				7848121C27E44F4F009B50D7 /* SceneDelegate.swift */,
+				7848121E27E44F4F009B50D7 /* ViewController.swift */,
+				7848122027E44F4F009B50D7 /* Main.storyboard */,
+				7848122327E44F5E009B50D7 /* Assets.xcassets */,
+				7848122527E44F5E009B50D7 /* LaunchScreen.storyboard */,
+				7848122827E44F5E009B50D7 /* Info.plist */,
+			);
+			path = "Application(Shimmering Effect)";
+			sourceTree = "<group>";
+		};
+		8D554A8110B028B2B5582E5D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DFB3057A9211DB1F87022E91 /* Pods-Application(Shimmering Effect).debug.xcconfig */,
+				7DCAB1135583095B42A919D3 /* Pods-Application(Shimmering Effect).release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7848121627E44F4F009B50D7 /* Application(Shimmering Effect) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7848122B27E44F5E009B50D7 /* Build configuration list for PBXNativeTarget "Application(Shimmering Effect)" */;
+			buildPhases = (
+				297C800BB28CC3173E5E5644 /* [CP] Check Pods Manifest.lock */,
+				7848121327E44F4F009B50D7 /* Sources */,
+				7848121427E44F4F009B50D7 /* Frameworks */,
+				7848121527E44F4F009B50D7 /* Resources */,
+				43E680C0520A1F7334ED628D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Application(Shimmering Effect)";
+			productName = "Application(Shimmering Effect)";
+			productReference = 7848121727E44F4F009B50D7 /* Application(Shimmering Effect).app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7848120F27E44F4F009B50D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					7848121627E44F4F009B50D7 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 7848121227E44F4F009B50D7 /* Build configuration list for PBXProject "Application(Shimmering Effect)" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7848120E27E44F4F009B50D7;
+			productRefGroup = 7848121827E44F4F009B50D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7848121627E44F4F009B50D7 /* Application(Shimmering Effect) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7848121527E44F4F009B50D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7848122727E44F5E009B50D7 /* LaunchScreen.storyboard in Resources */,
+				7848122427E44F5E009B50D7 /* Assets.xcassets in Resources */,
+				7848122227E44F4F009B50D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		297C800BB28CC3173E5E5644 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Application(Shimmering Effect)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43E680C0520A1F7334ED628D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Application(Shimmering Effect)/Pods-Application(Shimmering Effect)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Application(Shimmering Effect)/Pods-Application(Shimmering Effect)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Application(Shimmering Effect)/Pods-Application(Shimmering Effect)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7848121327E44F4F009B50D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7848121F27E44F4F009B50D7 /* ViewController.swift in Sources */,
+				7848121B27E44F4F009B50D7 /* AppDelegate.swift in Sources */,
+				7848121D27E44F4F009B50D7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7848122027E44F4F009B50D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7848122127E44F4F009B50D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7848122527E44F5E009B50D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7848122627E44F5E009B50D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7848122927E44F5E009B50D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7848122A27E44F5E009B50D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7848122C27E44F5E009B50D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFB3057A9211DB1F87022E91 /* Pods-Application(Shimmering Effect).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Application(Shimmering Effect)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mdabirhossain.Application-Shimmering-Effect-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7848122D27E44F5E009B50D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DCAB1135583095B42A919D3 /* Pods-Application(Shimmering Effect).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Application(Shimmering Effect)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mdabirhossain.Application-Shimmering-Effect-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7848121227E44F4F009B50D7 /* Build configuration list for PBXProject "Application(Shimmering Effect)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7848122927E44F5E009B50D7 /* Debug */,
+				7848122A27E44F5E009B50D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7848122B27E44F5E009B50D7 /* Build configuration list for PBXNativeTarget "Application(Shimmering Effect)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7848122C27E44F5E009B50D7 /* Debug */,
+				7848122D27E44F5E009B50D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7848120F27E44F4F009B50D7 /* Project object */;
+}

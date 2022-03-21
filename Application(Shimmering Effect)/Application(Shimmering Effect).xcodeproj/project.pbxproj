@@ -3,24 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1FBBBE3E03EF3564153D02E0 /* Pods_Application_Shimmering_Effect_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C43C7CE658991F736C13D272 /* Pods_Application_Shimmering_Effect_.framework */; };
+		782DF1AE27E86DC100454E73 /* PhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782DF1AD27E86DC000454E73 /* PhotoTableViewCell.swift */; };
 		7848121B27E44F4F009B50D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7848121A27E44F4F009B50D7 /* AppDelegate.swift */; };
 		7848121D27E44F4F009B50D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7848121C27E44F4F009B50D7 /* SceneDelegate.swift */; };
-		7848121F27E44F4F009B50D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7848121E27E44F4F009B50D7 /* ViewController.swift */; };
 		7848122227E44F4F009B50D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7848122027E44F4F009B50D7 /* Main.storyboard */; };
 		7848122427E44F5E009B50D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7848122327E44F5E009B50D7 /* Assets.xcassets */; };
 		7848122727E44F5E009B50D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7848122527E44F5E009B50D7 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		782DF1AD27E86DC000454E73 /* PhotoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTableViewCell.swift; sourceTree = "<group>"; };
 		7848121727E44F4F009B50D7 /* Application(Shimmering Effect).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Application(Shimmering Effect).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7848121A27E44F4F009B50D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7848121C27E44F4F009B50D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7848121E27E44F4F009B50D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7848122127E44F4F009B50D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7848122327E44F5E009B50D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7848122627E44F5E009B50D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -73,7 +73,7 @@
 			children = (
 				7848121A27E44F4F009B50D7 /* AppDelegate.swift */,
 				7848121C27E44F4F009B50D7 /* SceneDelegate.swift */,
-				7848121E27E44F4F009B50D7 /* ViewController.swift */,
+				782DF1AD27E86DC000454E73 /* PhotoTableViewCell.swift */,
 				7848122027E44F4F009B50D7 /* Main.storyboard */,
 				7848122327E44F5E009B50D7 /* Assets.xcassets */,
 				7848122527E44F5E009B50D7 /* LaunchScreen.storyboard */,
@@ -88,7 +88,6 @@
 				DFB3057A9211DB1F87022E91 /* Pods-Application(Shimmering Effect).debug.xcconfig */,
 				7DCAB1135583095B42A919D3 /* Pods-Application(Shimmering Effect).release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -206,7 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7848121F27E44F4F009B50D7 /* ViewController.swift in Sources */,
+				782DF1AE27E86DC100454E73 /* PhotoTableViewCell.swift in Sources */,
 				7848121B27E44F4F009B50D7 /* AppDelegate.swift in Sources */,
 				7848121D27E44F4F009B50D7 /* SceneDelegate.swift in Sources */,
 			);

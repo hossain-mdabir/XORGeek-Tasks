@@ -14,6 +14,8 @@
 		7870C4D427E4766100D811F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7870C4D327E4766100D811F5 /* Assets.xcassets */; };
 		7870C4D727E4766100D811F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7870C4D527E4766100D811F5 /* LaunchScreen.storyboard */; };
 		7870C4DA27E4766100D811F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7870C4D927E4766100D811F5 /* main.m */; };
+		78AF824027EC301B0010B41C /* FBShimmeringLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AF823A27EC301A0010B41C /* FBShimmeringLayer.m */; };
+		78AF824127EC301B0010B41C /* FBShimmeringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AF823D27EC301B0010B41C /* FBShimmeringView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,12 @@
 		7870C4D627E4766100D811F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7870C4D827E4766100D811F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7870C4D927E4766100D811F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78AF823A27EC301A0010B41C /* FBShimmeringLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringLayer.m; sourceTree = "<group>"; };
+		78AF823B27EC301B0010B41C /* FBShimmeringLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringLayer.h; sourceTree = "<group>"; };
+		78AF823C27EC301B0010B41C /* FBShimmering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmering.h; sourceTree = "<group>"; };
+		78AF823D27EC301B0010B41C /* FBShimmeringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringView.m; sourceTree = "<group>"; };
+		78AF823E27EC301B0010B41C /* FBShimmeringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringView.h; sourceTree = "<group>"; };
+		78AF823F27EC301B0010B41C /* FBShimmering-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBShimmering-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +69,7 @@
 		7870C4C627E4765200D811F5 /* Application(Shimmering Effect ObjC) */ = {
 			isa = PBXGroup;
 			children = (
+				7876559627EB2B9100CC1A79 /* FBShimmering */,
 				7870C4C727E4765200D811F5 /* AppDelegate.h */,
 				7870C4C827E4765200D811F5 /* AppDelegate.m */,
 				7870C4CA27E4765200D811F5 /* SceneDelegate.h */,
@@ -74,6 +83,19 @@
 				7870C4D927E4766100D811F5 /* main.m */,
 			);
 			path = "Application(Shimmering Effect ObjC)";
+			sourceTree = "<group>";
+		};
+		7876559627EB2B9100CC1A79 /* FBShimmering */ = {
+			isa = PBXGroup;
+			children = (
+				78AF823F27EC301B0010B41C /* FBShimmering-Prefix.pch */,
+				78AF823C27EC301B0010B41C /* FBShimmering.h */,
+				78AF823B27EC301B0010B41C /* FBShimmeringLayer.h */,
+				78AF823A27EC301A0010B41C /* FBShimmeringLayer.m */,
+				78AF823E27EC301B0010B41C /* FBShimmeringView.h */,
+				78AF823D27EC301B0010B41C /* FBShimmeringView.m */,
+			);
+			path = FBShimmering;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,7 +168,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7870C4CF27E4765200D811F5 /* ViewController.m in Sources */,
+				78AF824127EC301B0010B41C /* FBShimmeringView.m in Sources */,
 				7870C4C927E4765200D811F5 /* AppDelegate.m in Sources */,
+				78AF824027EC301B0010B41C /* FBShimmeringLayer.m in Sources */,
 				7870C4DA27E4766100D811F5 /* main.m in Sources */,
 				7870C4CC27E4765200D811F5 /* SceneDelegate.m in Sources */,
 			);

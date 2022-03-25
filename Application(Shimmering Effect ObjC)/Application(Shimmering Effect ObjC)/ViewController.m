@@ -12,6 +12,7 @@
 #import "FBShimmeringView.h"
 
 @interface ViewController ()
+@property (strong, nonatomic) IBOutlet UIView *userInterfaceView;
 @property (strong, nonatomic) IBOutlet UIImageView *userInterfaceImageView;
 @property (strong, nonatomic) IBOutlet UIImageView *behindImage;
 
@@ -22,20 +23,31 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSData * imageData = [[NSData alloc] initWithContentsOfURL: [NSURL URLWithString: @"https://reservation.ebi.efusion.jp/wordpress/wp-content/uploads/2022/03/PICKUP-YARDAGE.jpg"]];
-    self.behindImage.image = [UIImage imageWithData: imageData];
+    NSData * imageData = [[NSData alloc] initWithContentsOfURL: [NSURL URLWithString: @"https://reservation.ebi.efusion.jp/wordpress/wp-content/uploads/2022/03/PICKUP-YARDAGE-768x384.jpg"]];
+    self.userInterfaceImageView.image = [UIImage imageWithData: imageData];
     
+    NSLog( @"text: %@", imageData );
     
     FBShimmeringView *shimmeringView = [[FBShimmeringView alloc] initWithFrame:self.userInterfaceImageView.bounds];
-    [self.userInterfaceImageView addSubview:shimmeringView];
     
-//    UIImageView *loadingImage = [[UIImageView alloc] initWithFrame:shimmeringView.bounds];
+    UIImageView *loadingImage = [[UIImageView alloc] initWithFrame:shimmeringView.bounds];
 //    loadingImage.backgroundColor = [UIColor lightGrayColor];
     
-    shimmeringView.contentView = self.behindImage;
 //    shimmeringView.contentView = self.userInterfaceImageView;
+    shimmeringView.contentView = self.userInterfaceView;
     shimmeringView.shimmering = YES;
-//    shimmeringView.shimmeringSpeed = 900;
+    
+//    shimmeringView.hidden = NO;
+//    shimmeringView.contentView = self.userInterfaceImageView;
+//    shimmeringView.shimmering = YES;
+    
+    
+    if(loadingImage != NULL)
+    {
+        self.behindImage.hidden = NO;
+        shimmeringView.shimmering = NO;
+        shimmeringView.hidden = YES;
+    }
     
 //        if (shimmeringView.contentView == YES) {
 //            shimmeringView.shimmering = YES;
@@ -45,12 +57,14 @@
 //        }else{
 //            shimmeringView.shimmering = NO;
 //        }
-    if (self.behindImage.image == nil) {
-        shimmeringView.shimmering = YES;
-    }
-    else if (self.behindImage != nil) {
-        shimmeringView.shimmering = NO;
-    }
+//    if (self.behindImage.image == nil) {
+//        shimmeringView.contentView = self.behindImage;
+//        shimmeringView.shimmering = YES;
+//    }
+//    else {
+//        shimmeringView.contentView = self.userInterfaceImageView;
+//        shimmeringView.shimmering = NO;
+//    }
 }
 
 

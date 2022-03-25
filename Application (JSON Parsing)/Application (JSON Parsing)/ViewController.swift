@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         var output: Output?
         do {
             let jsonData = try Data(contentsOf: url)
-            output = try! JSONData
+            output = try! Json
         }
         catch {
             print("Error \(error)")

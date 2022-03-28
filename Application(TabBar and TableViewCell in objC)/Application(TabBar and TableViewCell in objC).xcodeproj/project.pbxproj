@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		7869BE5D27EDF3E00063E93C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7869BE5C27EDF3E00063E93C /* AppDelegate.m */; };
 		7869BE6027EDF3E00063E93C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7869BE5F27EDF3E00063E93C /* SceneDelegate.m */; };
-		7869BE6327EDF3E00063E93C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7869BE6227EDF3E00063E93C /* ViewController.m */; };
 		7869BE6627EDF3E00063E93C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7869BE6427EDF3E00063E93C /* Main.storyboard */; };
 		7869BE6827EDF3F50063E93C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7869BE6727EDF3F50063E93C /* Assets.xcassets */; };
 		7869BE6B27EDF3F50063E93C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7869BE6927EDF3F50063E93C /* LaunchScreen.storyboard */; };
 		7869BE6E27EDF3F50063E93C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7869BE6D27EDF3F50063E93C /* main.m */; };
+		78D586BA27F175780008407E /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D586B927F175780008407E /* TabBarViewController.m */; };
+		78D586C627F1910D0008407E /* ScrollViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D586C527F1910D0008407E /* ScrollViewViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +23,15 @@
 		7869BE5C27EDF3E00063E93C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7869BE5E27EDF3E00063E93C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		7869BE5F27EDF3E00063E93C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		7869BE6127EDF3E00063E93C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7869BE6227EDF3E00063E93C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7869BE6527EDF3E00063E93C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7869BE6727EDF3F50063E93C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7869BE6A27EDF3F50063E93C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7869BE6C27EDF3F50063E93C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7869BE6D27EDF3F50063E93C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78D586B827F175780008407E /* TabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		78D586B927F175780008407E /* TabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		78D586C427F1910D0008407E /* ScrollViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollViewViewController.h; sourceTree = "<group>"; };
+		78D586C527F1910D0008407E /* ScrollViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollViewViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +68,10 @@
 				7869BE5C27EDF3E00063E93C /* AppDelegate.m */,
 				7869BE5E27EDF3E00063E93C /* SceneDelegate.h */,
 				7869BE5F27EDF3E00063E93C /* SceneDelegate.m */,
-				7869BE6127EDF3E00063E93C /* ViewController.h */,
-				7869BE6227EDF3E00063E93C /* ViewController.m */,
+				78D586C427F1910D0008407E /* ScrollViewViewController.h */,
+				78D586C527F1910D0008407E /* ScrollViewViewController.m */,
+				78D586B827F175780008407E /* TabBarViewController.h */,
+				78D586B927F175780008407E /* TabBarViewController.m */,
 				7869BE6427EDF3E00063E93C /* Main.storyboard */,
 				7869BE6727EDF3F50063E93C /* Assets.xcassets */,
 				7869BE6927EDF3F50063E93C /* LaunchScreen.storyboard */,
@@ -145,8 +150,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7869BE6327EDF3E00063E93C /* ViewController.m in Sources */,
+				78D586BA27F175780008407E /* TabBarViewController.m in Sources */,
 				7869BE5D27EDF3E00063E93C /* AppDelegate.m in Sources */,
+				78D586C627F1910D0008407E /* ScrollViewViewController.m in Sources */,
 				7869BE6E27EDF3F50063E93C /* main.m in Sources */,
 				7869BE6027EDF3E00063E93C /* SceneDelegate.m in Sources */,
 			);

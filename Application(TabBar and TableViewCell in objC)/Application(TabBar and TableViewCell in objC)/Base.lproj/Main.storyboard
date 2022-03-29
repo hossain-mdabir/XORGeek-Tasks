@@ -56,6 +56,18 @@
                                 <viewLayoutGuide key="contentLayoutGuide" id="ikG-os-psS"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="OT3-f4-GJd"/>
                             </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hvY-WY-1oh">
+                                <rect key="frame" x="51" y="108" width="120" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="TabBar"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="56T-pg-so9">
+                                <rect key="frame" x="207" y="108" width="138" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="Noti.Bar"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="VAk-dt-UCl"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>

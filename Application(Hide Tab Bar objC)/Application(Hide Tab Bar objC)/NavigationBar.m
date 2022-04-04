@@ -1,13 +1,13 @@
 //
-//  UserInterfaceScrollVIew.m
+//  NavigationBar.m
 //  Application(Hide Tab Bar)
 //
-//  Created by XORGeek New on 29/Mar/22.
+//  Created by XORGeek New on 30/Mar/22.
 //
 
-#import "ScrollViewCOntroller.h"
+#import "NavigationBar.h"
 
-@implementation ScrollViewCOntroller
+@implementation NavigationBar
 
 /*
 // Only override drawRect: if you perform custom drawing.

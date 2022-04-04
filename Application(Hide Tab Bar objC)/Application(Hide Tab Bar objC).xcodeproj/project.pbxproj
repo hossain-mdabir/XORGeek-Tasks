@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78CA1C6F27F4286800712CC7 /* NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CA1C6E27F4286800712CC7 /* NavigationBar.m */; };
+		78CA1C7327F42B5900712CC7 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CA1C7227F42B5900712CC7 /* CustomCell.m */; };
 		78EB300B27F32D7900BB009B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78EB300A27F32D7900BB009B /* AppDelegate.m */; };
 		78EB300E27F32D7900BB009B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78EB300D27F32D7900BB009B /* SceneDelegate.m */; };
 		78EB301127F32D7900BB009B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78EB301027F32D7900BB009B /* ViewController.m */; };
@@ -14,10 +16,15 @@
 		78EB301627F32D8B00BB009B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78EB301527F32D8B00BB009B /* Assets.xcassets */; };
 		78EB301927F32D8B00BB009B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78EB301727F32D8B00BB009B /* LaunchScreen.storyboard */; };
 		78EB301C27F32D8B00BB009B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78EB301B27F32D8B00BB009B /* main.m */; };
+		78EB302527F32F4900BB009B /* ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78EB302427F32F4900BB009B /* ScrollViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		78EB300627F32D7900BB009B /* Application(Hide Tab Bar).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Application(Hide Tab Bar).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78CA1C6D27F4286800712CC7 /* NavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationBar.h; sourceTree = "<group>"; };
+		78CA1C6E27F4286800712CC7 /* NavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationBar.m; sourceTree = "<group>"; };
+		78CA1C7127F42B5900712CC7 /* CustomCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		78CA1C7227F42B5900712CC7 /* CustomCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		78EB300627F32D7900BB009B /* Application(Hide Tab Bar objC).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Application(Hide Tab Bar objC).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78EB300927F32D7900BB009B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		78EB300A27F32D7900BB009B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		78EB300C27F32D7900BB009B /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
@@ -29,6 +36,8 @@
 		78EB301827F32D8B00BB009B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78EB301A27F32D8B00BB009B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78EB301B27F32D8B00BB009B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78EB302327F32F4900BB009B /* ScrollViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollViewController.h; sourceTree = "<group>"; };
+		78EB302427F32F4900BB009B /* ScrollViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +54,7 @@
 		78EB2FFD27F32D7900BB009B = {
 			isa = PBXGroup;
 			children = (
-				78EB300827F32D7900BB009B /* Application(Hide Tab Bar) */,
+				78EB300827F32D7900BB009B /* Application(Hide Tab Bar objC) */,
 				78EB300727F32D7900BB009B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,18 +62,24 @@
 		78EB300727F32D7900BB009B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				78EB300627F32D7900BB009B /* Application(Hide Tab Bar).app */,
+				78EB300627F32D7900BB009B /* Application(Hide Tab Bar objC).app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		78EB300827F32D7900BB009B /* Application(Hide Tab Bar) */ = {
+		78EB300827F32D7900BB009B /* Application(Hide Tab Bar objC) */ = {
 			isa = PBXGroup;
 			children = (
 				78EB300927F32D7900BB009B /* AppDelegate.h */,
 				78EB300A27F32D7900BB009B /* AppDelegate.m */,
 				78EB300C27F32D7900BB009B /* SceneDelegate.h */,
 				78EB300D27F32D7900BB009B /* SceneDelegate.m */,
+				78EB302327F32F4900BB009B /* ScrollViewController.h */,
+				78EB302427F32F4900BB009B /* ScrollViewController.m */,
+				78CA1C6D27F4286800712CC7 /* NavigationBar.h */,
+				78CA1C6E27F4286800712CC7 /* NavigationBar.m */,
+				78CA1C7127F42B5900712CC7 /* CustomCell.h */,
+				78CA1C7227F42B5900712CC7 /* CustomCell.m */,
 				78EB300F27F32D7900BB009B /* ViewController.h */,
 				78EB301027F32D7900BB009B /* ViewController.m */,
 				78EB301227F32D7900BB009B /* Main.storyboard */,
@@ -73,15 +88,15 @@
 				78EB301A27F32D8B00BB009B /* Info.plist */,
 				78EB301B27F32D8B00BB009B /* main.m */,
 			);
-			path = "Application(Hide Tab Bar)";
+			path = "Application(Hide Tab Bar objC)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		78EB300527F32D7900BB009B /* Application(Hide Tab Bar) */ = {
+		78EB300527F32D7900BB009B /* Application(Hide Tab Bar objC) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 78EB301F27F32D8B00BB009B /* Build configuration list for PBXNativeTarget "Application(Hide Tab Bar)" */;
+			buildConfigurationList = 78EB301F27F32D8B00BB009B /* Build configuration list for PBXNativeTarget "Application(Hide Tab Bar objC)" */;
 			buildPhases = (
 				78EB300227F32D7900BB009B /* Sources */,
 				78EB300327F32D7900BB009B /* Frameworks */,
@@ -91,9 +106,9 @@
 			);
 			dependencies = (
 			);
-			name = "Application(Hide Tab Bar)";
+			name = "Application(Hide Tab Bar objC)";
 			productName = "Application(Hide Tab Bar)";
-			productReference = 78EB300627F32D7900BB009B /* Application(Hide Tab Bar).app */;
+			productReference = 78EB300627F32D7900BB009B /* Application(Hide Tab Bar objC).app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -109,7 +124,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 78EB300127F32D7900BB009B /* Build configuration list for PBXProject "Application(Hide Tab Bar)" */;
+			buildConfigurationList = 78EB300127F32D7900BB009B /* Build configuration list for PBXProject "Application(Hide Tab Bar objC)" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -122,7 +137,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				78EB300527F32D7900BB009B /* Application(Hide Tab Bar) */,
+				78EB300527F32D7900BB009B /* Application(Hide Tab Bar objC) */,
 			);
 		};
 /* End PBXProject section */
@@ -146,7 +161,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				78EB301127F32D7900BB009B /* ViewController.m in Sources */,
+				78CA1C6F27F4286800712CC7 /* NavigationBar.m in Sources */,
 				78EB300B27F32D7900BB009B /* AppDelegate.m in Sources */,
+				78EB302527F32F4900BB009B /* ScrollViewController.m in Sources */,
+				78CA1C7327F42B5900712CC7 /* CustomCell.m in Sources */,
 				78EB301C27F32D8B00BB009B /* main.m in Sources */,
 				78EB300E27F32D7900BB009B /* SceneDelegate.m in Sources */,
 			);
@@ -292,7 +310,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Application(Hide Tab Bar)/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Application(Hide Tab Bar objC)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,7 +327,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Application(Hide Tab Bar)/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Application(Hide Tab Bar objC)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,7 +341,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		78EB300127F32D7900BB009B /* Build configuration list for PBXProject "Application(Hide Tab Bar)" */ = {
+		78EB300127F32D7900BB009B /* Build configuration list for PBXProject "Application(Hide Tab Bar objC)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				78EB301D27F32D8B00BB009B /* Debug */,
@@ -332,7 +350,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		78EB301F27F32D8B00BB009B /* Build configuration list for PBXNativeTarget "Application(Hide Tab Bar)" */ = {
+		78EB301F27F32D8B00BB009B /* Build configuration list for PBXNativeTarget "Application(Hide Tab Bar objC)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				78EB302027F32D8B00BB009B /* Debug */,
